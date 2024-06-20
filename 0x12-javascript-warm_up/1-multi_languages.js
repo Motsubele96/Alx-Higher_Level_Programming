@@ -1,5 +1,5 @@
 #!/usr/bin/node
-//console.log('C is fun');
+// console.log('C is fun');
 
-const print = ['C is fun','Python is cool','Javascript is amazing'];
-for (let i in print) {console.log(print[i]); }
+const print = ['C is fun', 'Python is cool', 'Javascript is amazing'];
+for (const i in print) { console.log(print[i]); }
